@@ -51,7 +51,7 @@
    EXPOSE 5173
 
    # Command to run the app using Vite
-   CMD ["yarn", "dev"]
+   CMD ["yarn", "dev", "--host"]
    ```
 
 4. **ساخت Docker Image:**
