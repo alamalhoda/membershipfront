@@ -1,9 +1,10 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import PostsTable from "./components/PostsTable.vue";
+import MembershipCode from "./components/MembershipCode.vue";
 </script>
 
 <template>
+  <MembershipCode></MembershipCode>
   <posts-table></posts-table>
 </template>
 
